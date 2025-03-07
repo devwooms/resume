@@ -19,3 +19,6 @@
 - 프레임워크/라이브러리 : Jetpack, CocoaPods, Node.js, React
 - 통신/프로토콜 : BLE(Bluetooth Low Energy), HTTP/HTTPS, WebSocket
 - 인프라/배포 : AWS
+
+상세 내역 :
+- 로보라이즌
