@@ -100,7 +100,7 @@
 
 ## 2. PingPong Scratch (Android)
  - Scratch를 Android 환경에서 지원이 가능하도록 Porting
- - 내부 Server WebSocket을 이용해서 연결
+    > ![Scratch Android Working](../../assets/experience/roborisen/pingpong-scratch-android/working.gif)
  - 다운로드 수 10만이상 달성
     > ![Scratch Android Download](../../assets/experience/roborisen/pingpong-scratch-android/download.png)
 
@@ -111,8 +111,15 @@
     > ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/pingpong-scratch-window/teachablemachine_pose.gif)
  - Google Spread Sheets, REST API를 활용한 그래프 기능
 
+## 4. KT Codiny
+ - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 개발 및 UI 구성 검토
+ - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
+ - 고객들의 피드백을 통한 해당 UI/UX 및 기능 개선, 추가
+    > ![KT Codiny AI Codiny](../../assets/experience/roborisen/KT%20Codiny/Ai%20Codiny.png)
 
-
+## 5. 팀모노리스 Codle
+ - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 기술 검토(API 연동, BLE 프로토콜 등) 및 지원
+    > ![팀모노리스 Codle Codle](../../assets/experience/roborisen/Codle/codle.png)
 
 
 
@@ -124,19 +131,15 @@
 1. 팀모노리스 Codle (G Cube) (#1-팀모노리스 Codle)
    -  내용 : 
       -  (주)팀모노리스에서 학생·선생님 대상으로 서비스 중인 모듈식 코스웨어 플랫폼(Codle)에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
-2. KT Codiny (핑퐁로봇)
-3. PingPong Scratch (Android)
-4. PingPong Play (Android) 
-5. PingPong Scratch (Window) 
-6. Entry (핑퐁로봇) 
-7. PingPong Robot (Android)
-8. PingPong Robot (iOS)
-9. PingPong Python 라이브러리
-10. 코딩로비 (Android)
-11. 코딩로비 (iOS)
-12. PingPong Voice Coding (Android) 
-13. PingPong Maker Coding (Android) 
-14. PingPong Block Coding (Android) 
+2. Entry (핑퐁로봇) 
+3. PingPong Robot (Android)
+4. PingPong Robot (iOS)
+5. PingPong Python 라이브러리
+6.  코딩로비 (Android)
+7.  코딩로비 (iOS)
+8.  PingPong Voice Coding (Android) 
+9.  PingPong Maker Coding (Android) 
+10. PingPong Block Coding (Android) 
 
 
 
