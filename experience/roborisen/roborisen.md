@@ -1,14 +1,22 @@
 # Table of Contents
-  - [**1. PingPong Scratch (Window)**](#1-pingpong-scratch-window)
-    - Scratch 오픈소스 프로젝트 커스텀 개발 및 유지보수
-  - [**2. PingPong Play (Android)**](#2-pingpong-play-android)
+  - [**1. PingPong Play (Android)**](#1-pingpong-play-android)
     - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
-  - [**3. PingPong Scratch (Android)**](#1-outline)
+  - [**2. PingPong Scratch (Android)**](#2-pingpong-scratch-android)
     - Scratch를 모바일에서도 사용할 수 있도록 해당 앱 이식
+  - [**3. PingPong Scratch (Window)**](#3-pingpong-scratch-window)
+    - Scratch 오픈소스 프로젝트 커스텀 개발 및 유지보수
   - [**4. KT Codiny (핑퐁로봇)**](#1-codiny)
     - (주)케이티에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
 
 
+  - [**1. PingPong Play (Android)**]
+    - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
+  - [**2. PingPong Scratch (Android)**]
+    - Scratch를 모바일에서도 사용할 수 있도록 해당 앱 이식
+  - [**3. PingPong Scratch (Window)**]
+    - Scratch 오픈소스 프로젝트 커스텀 개발 및 유지보수
+  - [**4. KT Codiny (핑퐁로봇)**]
+    - (주)케이티에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
 
 1. test
 2. test
@@ -82,16 +90,22 @@
 70. test
 71. test
 
-## 1. PingPong Scratch (Window) 
- - Scratch 오픈 소스를 이용한 커스텀 개발 및 유지보수
+## 1. PingPong Play (Android)
+ - Three.js, HTML5, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서를 이용해서 조작 가능하도록 BLE 연동 로직 구현
+ - Phaser 3, Typescript를 이용한 게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서, 버튼을 이용해서 조작 가능하도록 BLE 연동 로직 구현
+ - RTSP기반 IP 카메라를 활용하여 Custom SurfaceView 스트리밍 구현
+  ![Play Camera](../../assets/experience/roborisen/pingpong-play-android/output.gif)
+## 2. PingPong Scratch (Android)
+ - 
+## 3. PingPong Scratch (Window) 
+ - Scratch 오픈 소스를 이용한 Custom 개발 및 유지보수
  - 자사 하드웨어 연결 및 하드웨어 동작 컨트롤 확장 기능 개발
+  ![Scratch Extension](../../assets/experience/roborisen/pingpong-scratch-window/scratch_extension.png)
  - Google Teachable Machine을 이용한 Scratch 확장 기능 개발
-   - ![Teachable Machine Pose](../../assets/experience/roborisen/pingpong-scratch-window/teachablemachine_pose.gif)
+  ![Teachable Machine Pose](../../assets/experience/roborisen/pingpong-scratch-window/teachablemachine_pose.gif)
  - Google Spread Sheets, REST API를 활용한 그래프 기능
 
-## 2. PingPong Play (Android)
- - Three.js, HTML5, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서를 이용해서 조이스틱 역활로 개발
- - 
+
 
 
 

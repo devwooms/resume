@@ -1,6 +1,6 @@
 
 ## 경력사항
-### (주)로보라이즌 - 메인개발자 *(2020.07 ~ 2024.09)*
+### [(주)로보라이즌 - 메인개발자 *(2020.07 ~ 2024.09)*](./experience/roborisen/roborisen.md)
 
 주요 업무 :
 - Android, iOS 모바일 앱 개발 및 지속적인 유지보수와 추가 개발
@@ -28,8 +28,3 @@
   - BLE(Bluetooth Low Energy), HTTP/HTTPS(REST API), WebSocket
 - 인프라/배포
   - AWS (EC2)
-
-
-
-경력 상세 내역 :
-- ### [로보라이즌](./experience/roborisen/roborisen.md)
