@@ -92,7 +92,9 @@
 
 ## 1. PingPong Play (Android)
  - Three.js, HTML5, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서를 이용해서 조작 가능하도록 BLE 연동 로직 구현
+    > ![Play Andorid Game1](../../assets/experience/roborisen/pingpong-play-android/game1.gif)
  - Phaser 3, Typescript를 이용한 게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서, 버튼을 이용해서 조작 가능하도록 BLE 연동 로직 구현
+    > ![Play Andorid Game2](../../assets/experience/roborisen/pingpong-play-android/game2.gif)
  - RTSP기반 IP 카메라를 활용하여 Custom SurfaceView 스트리밍 구현
     > ![Play Andorid Camera](../../assets/experience/roborisen/pingpong-play-android/camera.gif)
 
