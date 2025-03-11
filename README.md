@@ -11,9 +11,9 @@
      *(KT - Ai Codiny, 팀모노리스 - Codle, 서양네트웍스 - R.Robot)*
 
 주요 성과 :
+- [1인용 레이싱 게임과 2인용 슈팅게임을 자사 하드웨어와 연동하여 게임 플레이가 가능하도록 개발](./experience/roborisen/roborisen.md#1-pingpong-play-android)
+- [자사 윈도우 앱을 모바일 앱으로 이식 후 개발/배포 후 누적 10만 다운로드를 기록](./experience/roborisen/roborisen.md#2-pingpong-scratch-android)
 - STT(Speech-to-Text) 정확도 개선
-- 1인용 레이싱 게임과 2인용 슈팅게임을 자사 하드웨어와 연동하여 게임 플레이가 가능하도록 개발
-- 자사 윈도우 앱을 모바일 앱으로 이식 후 개발/배포 후 누적 10만 다운로드를 기록
 
 ### 기술 스택
 - 언어
