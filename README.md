@@ -15,11 +15,21 @@
 - 1인용 레이싱 게임과 2인용 슈팅게임을 자사 하드웨어와 연동하여 게임 플레이가 가능하도록 개발
 - 자사 윈도우 앱을 모바일 앱으로 이식 후 개발/배포 후 누적 10만 다운로드를 기록
 
-기술 스택 :
-- 언어 : Kotlin, Java, Swift, JavaScript, TypeScript, Python, C#
-- 프레임워크/라이브러리 : Jetpack, CocoaPods, Node.js, React
-- 통신/프로토콜 : BLE(Bluetooth Low Energy), HTTP/HTTPS, WebSocket
-- 인프라/배포 : AWS
+### 기술 스택
+- 언어
+  - Kotlin, Java, Swift, JavaScript/TypeScript, Python, C#
+- 프레임워크/라이브러리 : 
+  - Android: Jetpack
+  - iOS : CocoaPods
+  - Web : Node.js, React, Electron
+- 빌드/번들링 도구
+  - Gradle, Maven, Webpack
+- 통신/프로토콜
+  - BLE(Bluetooth Low Energy), HTTP/HTTPS(REST API), WebSocket
+- 인프라/배포
+  - AWS (EC2)
 
-상세 내역 :
-- 로보라이즌
+
+
+경력 상세 내역 :
+- ### [로보라이즌](./experience/roborisen/roborisen.md)
