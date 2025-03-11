@@ -105,7 +105,6 @@
 ## 3. PingPong Scratch (Window) 
  - Scratch 오픈 소스를 이용한 Custom 개발 및 유지보수
  - 자사 하드웨어 연결 및 하드웨어 동작 컨트롤 확장 기능 개발
-    > ![Scratch Window Extension](../../assets/experience/roborisen/pingpong-scratch-window/scratch_extension.png)
  - Google Teachable Machine을 이용한 Scratch 확장 기능 개발
     > ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/pingpong-scratch-window/teachablemachine_pose.gif)
  - Google Spread Sheets, REST API를 활용한 그래프 기능
