@@ -1,12 +1,47 @@
-# Table of Contents
+# Projects Overview (프로젝트 목차)
   - [**1. PingPong Play (Android)**](#1-pingpong-play-android)
-    - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
+  	> --- 
+    > - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
+	> --- 
   - [**2. PingPong Scratch (Android)**](#2-pingpong-scratch-android)
-    - Scratch를 모바일에서도 사용할 수 있도록 해당 앱을 이식
+  	> --- 
+    > - Scratch를 모바일에서도 사용할 수 있도록 해당 앱을 이식
+  	> --- 
   - [**3. PingPong Scratch (Window)**](#3-pingpong-scratch-window)
-    - Scratch 오픈소스 프로젝트 Custom 개발 및 유지보수
-  - [**4. KT Codiny (핑퐁로봇)**](#1-codiny)
-    - (주) KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
+  	> --- 
+    > - Scratch 오픈소스 프로젝트 Custom 개발 및 유지보수
+  	> --- 
+  - [**4. KT Codiny**](#4-kt-codiny)
+  	> --- 
+    > - KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
+  	> --- 
+  - [**5. 네이버 커넥트재단 Entry**](#5-네이버-커넥트재단-entry)
+  	> --- 
+    > - 네이버 커넥트재단에서 서비스 중인 Entry에 자사 하드웨어를 연동하기 위한 확장 모듈 유지보수
+  	> --- 
+  - [**6. 팀모노리스 Codle**](#6-팀모노리스-codle)
+  	> --- 
+    > - 팀모노리스에서 서비스 중인 Codle에 자사 하드웨어를 연동 하기 위한 기술 검토 및 지원
+  	> --- 
+  - [**7. 서양네트웍스 R:Robot 코딩로비 (iOS)**](#6-팀모노리스-codle)
+  	> --- 
+    > - 서양네트웍스 R:Robot과 콜라보 
+  	> --- 
+  - [**8. 서양네트웍스 R:Robot 코딩로비 (Android)**](#6-팀모노리스-codle)
+  	> --- 
+    > - (주) KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
+  	> --- 
+
+
+
+
+
+
+
+
+
+
+
 
 
   - [**1. PingPong Play (Android)**]
@@ -20,37 +55,46 @@
 
 ## 1. PingPong Play (Android)
  - Three.js, HTML5, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서를 이용해서 조작 가능하도록 BLE 연동 로직 구현
-    > ![Play Andorid Game1](../../assets/experience/roborisen/pingpong-play-android/game1.gif)
+    > ![Play Andorid Game1](../../assets/experience/roborisen/Pingpong-Play-Android/game1.gif)
  - Phaser 3, Typescript를 이용한 게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서, 버튼을 이용해서 조작 가능하도록 BLE 연동 로직 구현
-    > ![Play Andorid Game2](../../assets/experience/roborisen/pingpong-play-android/game2.gif)
+    > ![Play Andorid Game2](../../assets/experience/roborisen/Pingpong-Play-Android/game2.gif)
  - RTSP기반 IP 카메라를 활용하여 Custom SurfaceView 스트리밍 구현
-    > ![Play Andorid Camera](../../assets/experience/roborisen/pingpong-play-android/camera.gif)
+    > ![Play Andorid Camera](../../assets/experience/roborisen/Pingpong-Play-Android/camera.gif)
 
 ## 2. PingPong Scratch (Android)
  - Scratch를 Android 환경에서 지원이 가능하도록 Porting
-    > ![Scratch Android Working](../../assets/experience/roborisen/pingpong-scratch-android/working.gif)
+    > ![Scratch Android Working](../../assets/experience/roborisen/Pingpong-Scratch-Android/working.gif)
  - 다운로드 수 10만이상 달성
-    > ![Scratch Android Download](../../assets/experience/roborisen/pingpong-scratch-android/download.png)
+    > ![Scratch Android Download](../../assets/experience/roborisen/Pingpong-Scratch-Android/download.png)
 
 ## 3. PingPong Scratch (Window) 
  - Scratch 오픈 소스를 이용한 Custom 개발 및 유지보수
  - 자사 하드웨어 연결 및 하드웨어 동작 컨트롤 확장 기능 개발
  - Google Teachable Machine을 이용한 Scratch 확장 기능 개발
-    > ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/pingpong-scratch-window/teachablemachine_pose.gif)
+    > ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/Pingpong-Scratch-Window/teachablemachine_pose.gif)
  - Google Spread Sheets, REST API를 활용한 그래프 기능
 
 ## 4. KT Codiny
  - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 개발 및 UI 구성 검토
  - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
  - 고객들의 피드백을 통한 해당 UI/UX 및 기능 개선, 추가
-    > ![KT Codiny AI Codiny](../../assets/experience/roborisen/KT%20Codiny/Ai%20Codiny.png)
+    > ![KT Codiny AI Codiny](../../assets/experience/roborisen/KT-Codiny/Ai-Codiny.png)
 
-## 5. 팀모노리스 Codle
+## 5. 네이버 커넥트재단 Entry
+ - 타사 플랫폼 내 자사 하드웨어 확장 모듈 유지보수
+    > ![네이버 커넥트재단 Entry](../../assets/experience/roborisen/네이버-커넥트재단-Entry/entry.png)
+
+## 6. 팀모노리스 Codle
  - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 기술 검토(API 연동, BLE 프로토콜 등) 및 지원
-    > ![팀모노리스 Codle Codle](../../assets/experience/roborisen/Codle/codle.png)
+    > ![팀모노리스 Codle Codle](../../assets/experience/roborisen/팀모노리스-Codle/codle.png)
 
+## 7. 서양네트웍스 R:Robot 코딩로비 (iOS)
+ - 앱 설계 및 유지보수
+    > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비-iOS/코딩로비-iOS.png)
 
-
+## 8. 서양네트웍스 R:Robot 코딩로비 (Android)
+ - 앱 설계, 개발 및 유지보수
+    > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비-Android/코딩로비-Android.png)
 
 
 
