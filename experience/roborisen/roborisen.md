@@ -1,33 +1,41 @@
 # Overview
  - [**1. PingPong Play (Android)**](#1-pingpong-play-android)
+
     > ---
 	> - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
 	> --- 
  - [**2. PingPong Scratch (Android)**](#2-pingpong-scratch-android)
+
     > ---
     > - Scratch를 모바일에서도 사용할 수 있도록 해당 앱을 이식
   	> --- 
  - [**3. PingPong Scratch (Window)**](#3-pingpong-scratch-window)
+
     > ---
     > - Scratch 오픈소스 프로젝트 Custom 개발 및 유지보수
   	> --- 
  - [**4. KT Codiny**](#4-kt-codiny)
+
     > ---
     > - KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 추가
   	> --- 
  - [**5. 네이버 커넥트재단 Entry**](#5-네이버-커넥트재단-entry)
+
     > ---
     > - 네이버 커넥트재단에서 서비스 중인 Entry에 자사 하드웨어를 연동하기 위한 확장 모듈 유지보수
   	> --- 
  - [**6. 팀모노리스 Codle**](#6-팀모노리스-codle)
+
     > ---
     > - 팀모노리스에서 서비스 중인 Codle에 자사 하드웨어를 연동 하기 위한 기술 검토 및 지원
   	> --- 
  - [**7. 서양네트웍스 R:Robot 코딩로비 (iOS)**](#6-팀모노리스-codle)
+
     > ---
     > - 서양네트웍스 R:Robot과 협업 앱 설계 및 유지보수
   	> --- 
  - [**8. 서양네트웍스 R:Robot 코딩로비 (Android)**](#6-팀모노리스-codle)
+
     > ---
     > - 서양네트웍스 R:Robot과 협업 앱 설계, 개발 및 유지보수
   	> --- 
