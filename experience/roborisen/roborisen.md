@@ -1,219 +1,144 @@
-# Projects Overview (프로젝트 목차)
-  - [**1. PingPong Play (Android)**](#1-pingpong-play-android)
-  	> --- 
-    > - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
+# Overview
+ - [**1. PingPong Play (Android)**](#1-pingpong-play-android)
+    > ---
+	> - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
 	> --- 
-  - [**2. PingPong Scratch (Android)**](#2-pingpong-scratch-android)
-  	> --- 
+ - [**2. PingPong Scratch (Android)**](#2-pingpong-scratch-android)
+    > ---
     > - Scratch를 모바일에서도 사용할 수 있도록 해당 앱을 이식
   	> --- 
-  - [**3. PingPong Scratch (Window)**](#3-pingpong-scratch-window)
-  	> --- 
+ - [**3. PingPong Scratch (Window)**](#3-pingpong-scratch-window)
+    > ---
     > - Scratch 오픈소스 프로젝트 Custom 개발 및 유지보수
   	> --- 
-  - [**4. KT Codiny**](#4-kt-codiny)
+ - [**4. KT Codiny**](#4-kt-codiny)
+    > ---
+    > - KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 추가
   	> --- 
-    > - KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
-  	> --- 
-  - [**5. 네이버 커넥트재단 Entry**](#5-네이버-커넥트재단-entry)
-  	> --- 
+ - [**5. 네이버 커넥트재단 Entry**](#5-네이버-커넥트재단-entry)
+    > ---
     > - 네이버 커넥트재단에서 서비스 중인 Entry에 자사 하드웨어를 연동하기 위한 확장 모듈 유지보수
   	> --- 
-  - [**6. 팀모노리스 Codle**](#6-팀모노리스-codle)
-  	> --- 
+ - [**6. 팀모노리스 Codle**](#6-팀모노리스-codle)
+    > ---
     > - 팀모노리스에서 서비스 중인 Codle에 자사 하드웨어를 연동 하기 위한 기술 검토 및 지원
   	> --- 
-  - [**7. 서양네트웍스 R:Robot 코딩로비 (iOS)**](#6-팀모노리스-codle)
+ - [**7. 서양네트웍스 R:Robot 코딩로비 (iOS)**](#6-팀모노리스-codle)
+    > ---
+    > - 서양네트웍스 R:Robot과 협업 앱 설계 및 유지보수
   	> --- 
-    > - 서양네트웍스 R:Robot과 콜라보 
-  	> --- 
-  - [**8. 서양네트웍스 R:Robot 코딩로비 (Android)**](#6-팀모노리스-codle)
-  	> --- 
-    > - (주) KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
+ - [**8. 서양네트웍스 R:Robot 코딩로비 (Android)**](#6-팀모노리스-codle)
+    > ---
+    > - 서양네트웍스 R:Robot과 협업 앱 설계, 개발 및 유지보수
   	> --- 
 
 
 
-
-
-
-
-
-
-
-
-
-
-  - [**1. PingPong Play (Android)**]
-    - 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
-  - [**2. PingPong Scratch (Android)**]
-    - Scratch를 모바일에서도 사용할 수 있도록 해당 앱 이식
-  - [**3. PingPong Scratch (Window)**]
-    - Scratch 오픈소스 프로젝트 Custom 개발 및 유지보수
-  - [**4. KT Codiny (핑퐁로봇)**]
-    - (주)케이티에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
-
+# Details
 ## 1. PingPong Play (Android)
- - Three.js, HTML5, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서를 이용해서 조작 가능하도록 BLE 연동 로직 구현
-    > ![Play Andorid Game1](../../assets/experience/roborisen/Pingpong-Play-Android/game1.gif)
- - Phaser 3, Typescript를 이용한 게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서, 버튼을 이용해서 조작 가능하도록 BLE 연동 로직 구현
-    > ![Play Andorid Game2](../../assets/experience/roborisen/Pingpong-Play-Android/game2.gif)
- - RTSP기반 IP 카메라를 활용하여 Custom SurfaceView 스트리밍 구현
-    > ![Play Andorid Camera](../../assets/experience/roborisen/Pingpong-Play-Android/camera.gif)
+ - 설명 : 
+   - 학생들의 흥미 향상을 위한 카메라 주행 및 게임 앱
+ - 업무 : 
+    - Three.js, HTML5, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서를 이용해서 조작 가능하도록 BLE 연동 로직 구현
+  		> ![Play Andorid Game1](../../assets/experience/roborisen/Pingpong-Play_Android/game1.gif)
+    - Phaser 3, Typescript를 이용한 게임 내의 컨트롤을 자사 하드웨어의 자이로, 가속도 센서, 버튼을 이용해서 조작 가능하도록 BLE 연동 로직 구현
+    	> ![Play Andorid Game2](../../assets/experience/roborisen/Pingpong-Play_Android/game2.gif)
+    - RTSP기반 IP 카메라를 활용하여 Custom SurfaceView 스트리밍 구현
+		> ![Play Andorid Camera](../../assets/experience/roborisen/Pingpong-Play_Android/camera.gif)
+ - 성과 : 
+	- 1인용과 2인용의 게임을 개발함으로 학생들의 흥미 유발
+	- 카메라를 활용한 조작법 숙달
 
 ## 2. PingPong Scratch (Android)
- - Scratch를 Android 환경에서 지원이 가능하도록 Porting
-    > ![Scratch Android Working](../../assets/experience/roborisen/Pingpong-Scratch-Android/working.gif)
- - 다운로드 수 10만이상 달성
-    > ![Scratch Android Download](../../assets/experience/roborisen/Pingpong-Scratch-Android/download.png)
+ - 설명 :
+    - 데스크탑이나 노트북에서만 사용하던 Scratch를 모바일과 태블릿에서 사용할 수 있도록 Android로 Porting
+ - 업무 :
+    - Scratch를 Android 환경에서 지원이 가능하도록 WebView, WebSocket, BLE 등을 활용한 Porting
+    	> ![Scratch Android Working](../../assets/experience/roborisen/Pingpong-Scratch_Android/working.gif)
+ - 성과 :
+    - 고객들의 하드웨어 선택지 확장 (태븗릿, Chrome Book)
+    - 다운로드 수 10만이상 달성
+    	> ![Scratch Android Download](../../assets/experience/roborisen/Pingpong-Scratch_Android/download.png)
 
-## 3. PingPong Scratch (Window) 
- - Scratch 오픈 소스를 이용한 Custom 개발 및 유지보수
- - 자사 하드웨어 연결 및 하드웨어 동작 컨트롤 확장 기능 개발
- - Google Teachable Machine을 이용한 Scratch 확장 기능 개발
-    > ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/Pingpong-Scratch-Window/teachablemachine_pose.gif)
- - Google Spread Sheets, REST API를 활용한 그래프 기능
+## 3. PingPong Scratch (Window)
+ - 설명 :
+   - WebPack, Node.js, Electron 기반 Scratch 오픈 소스를 이용한 Custom 개발 및 유지보수
+ - 업무 :
+   - 자사 하드웨어 연결 및 하드웨어 동작 컨트롤 확장 기능 개발 및 유지보수
+		> ![Scratch Window Extension](../../assets/experience/roborisen/Pingpong-Scratch_Window/scratch_extension.png)
+   - Tensorflow를 기반으로 한 Google Teachable Machine을 이용하여 Scratch 확장 기능 개발
+		> ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/Pingpong-Scratch_Window/teachablemachine_pose.gif)
+   - Google Spread Sheets, REST API를 활용한 그래프 기능 개발 및 유지보수
+		> ![Scratch Window Google Spread Sheets](../../assets/experience/roborisen/Pingpong-Scratch_Window/google-spread-sheet.gif)
+ - 성과 :
+   - 자사 하드웨어 기반 로봇 모델 및 활동 학습 확장
+   - 고객들의 AI 교육 학습 확장
+   - Google Spread Sheets 추가로 인한 활동 학습 활용도 향상
 
 ## 4. KT Codiny
- - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 개발 및 UI 구성 검토
- - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
- - 고객들의 피드백을 통한 해당 UI/UX 및 기능 개선, 추가
-    > ![KT Codiny AI Codiny](../../assets/experience/roborisen/KT-Codiny/Ai-Codiny.png)
+ - 설명 :
+   - KT에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 추가 및 고객들의 UI/UX와 기능에 관한 피드백 검토 및 적용
+ - 업무 :
+   - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 개발 및 UI 구성 검토
+   - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
+   - 고객들의 피드백을 통한 해당 UI/UX 및 기능 개선, 추가
+		> ![KT Codiny AI Codiny](../../assets/experience/roborisen/KT-Codiny/Ai-Codiny.png)
+ - 성과 :
+   - 고객들의 플랫폼 선택 확장
+   - 새로운 활동 학습 추가
+
 
 ## 5. 네이버 커넥트재단 Entry
- - 타사 플랫폼 내 자사 하드웨어 확장 모듈 유지보수
-    > ![네이버 커넥트재단 Entry](../../assets/experience/roborisen/네이버-커넥트재단-Entry/entry.png)
+ - 설명 :
+   - 네이버 커넥트재단에서 서비스 중인 Entry에 자사 하드웨어를 연동하기 위한 확장 모듈 유지보수
+ - 업무 :
+   - Entry 하드웨어, Entry 오프라인 유지보수
+		> ![네이버 커넥트재단 Entry](../../assets/experience/roborisen/네이버-커넥트재단-Entry/entry.png)
+ - 성과 :
+   - 유지보수를 통해 고객의 부정적 피드백 감소
 
 ## 6. 팀모노리스 Codle
- - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 기술 검토(API 연동, BLE 프로토콜 등) 및 지원
-    > ![팀모노리스 Codle Codle](../../assets/experience/roborisen/팀모노리스-Codle/codle.png)
+ - 설명 : 
+   - 팀모노리스에서 학생, 교사, 강사를 대상으로 서비스 중인 모듈식 코스웨어 플랫폼 Codle에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가, 기술 검토 및 지원
+ - 업무 :
+   - 자사 하드웨어 연동을 위한 기술 검토 (API 연동, BLE 프로토콜, 버전 호환 여부 등등)
+   - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
+   - 자사 하드웨어 모델 동작 확장 모듈 추가 
+		> ![팀모노리스 Codle Codle](../../assets/experience/roborisen/팀모노리스-Codle/codle.png)
+ - 성과 :
+   - 고객들의 플랫폼 선택지 확대 및 수업력 향상
 
-## 7. 서양네트웍스 R:Robot 코딩로비 (iOS)
+## 7. PingPong Voice Coding (Android)
+ - 설명 :
+   - 어린 아이들을 위한 STT를 활용한 자사 하드웨어 동작 앱 유지보수
+ - 업무 :
+   - 아이들의 사용 환경 및 음성 데이터 확보 후 STT 인식률 개선 (45% -> 85% / 10명 테스트 100번 기준 총 1000번)
+		> ![PingPong Voice Coding (Android) Voice 1](../../assets/experience/roborisen/PingPong-Voice-Coding_Android/voice1.gif)
+   - UI/UX 변경 및 유지 보수
+		> ![PingPong Voice Coding (Android) Voice 2](../../assets/experience/roborisen/PingPong-Voice-Coding_Android/voice2.gif)
+ - 성과 :
+   - 사용성 향상
+   - 고객의 부정적 피드백 감소
+
+## 8. PingPong Robot (Android)  
+ - STT를 활용한 
+
+## 9. PingPong Robot (iOS) 
+ - STT를 활용한 
+
+## 10. 서양네트웍스 R:Robot 코딩로비 (iOS)
  - 앱 설계 및 유지보수
-    > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비-iOS/코딩로비-iOS.png)
+    > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비_iOS/코딩로비-iOS.png)
 
-## 8. 서양네트웍스 R:Robot 코딩로비 (Android)
+## 11. 서양네트웍스 R:Robot 코딩로비 (Android)
  - 앱 설계, 개발 및 유지보수
-    > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비-Android/코딩로비-Android.png)
+    > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비_Android/코딩로비-Android.png)
 
+## 12. Python 라이브러리
+ - Python 라이브러리 유지보수
 
+## 13. PingPong Block Coding (Android) 
+ - STT를 활용한 
 
-
-
-1. 팀모노리스 Codle (G Cube) (#1-팀모노리스 Codle)
-   -  내용 : 
-      -  (주)팀모노리스에서 학생·선생님 대상으로 서비스 중인 모듈식 코스웨어 플랫폼(Codle)에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
-2. Entry (핑퐁로봇) 
-3. PingPong Robot (Android)
-4. PingPong Robot (iOS)
-5. PingPong Python 라이브러리
-6.  코딩로비 (Android)
-7.  코딩로비 (iOS)
-8.  PingPong Voice Coding (Android) 
-9.  PingPong Maker Coding (Android) 
-10. PingPong Block Coding (Android) 
-
-
-
-
-- 기간 : 
-  - 2024.05.20 ~ 2024.08.01
-- 내용 : 
-  - (주)팀모노리스에서 학생·선생님 대상으로 서비스 중인 모듈식 코스웨어 플랫폼(Codle)에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
-- 주요업무 : 
-  - 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 기술 검토(API 연동, BLE 프로토콜 등) 및 지원
-1. BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
-- 성과 :
-			1. 자사 하드웨어를 사용하는 고객들의 플랫폼 선택지 증가 및 수업력 향상
-
-	1. KT Codiny (핑퐁로봇)
-		- 기간 : 2024.02.05 ~ 2024.08.01 
-		- 내용 : (주)케이티에서 서비스 중인 Ai Codiny에 자사 하드웨어를 연동하기 위한 확장 모듈을 신규로 추가
-		- 주요업무 :
-			1. 타사 플랫폼 내 자사 하드웨어 확장 모듈 추가 개발 및 UI 구성 검토
-			2. BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
-			3. 고객들의 피드백을 통한 해당 UI/UX 및 기능 개선, 추가
-		- 성과 :
-			1. 자사 하드웨어를 사용하는 고객들의 플랫폼 선택지 증가 및 수업력 향상
-
-	2. 코딩로비 (Android) 
-		- 기간 : 2022.01.24 ~ 2022.06.19 
-		- 내용 : (주)서양네트웍스와 콜라보로 알로봇과 함께하는 코딩 앱 개발
-		- 주요업무 : 
-			1. (주)서양네트웍스 측 메인 컬러 및 알로봇 로고 등 브랜드 아이덴티티를 앱 내 UI/UX에 반영
-			2. 알로봇과 콜라보하는 제품과 연동할 수 있도록 BLE 통신 로직(연결/데이터 송수신) 개발 및 안정화
-
-	3. 코딩로비 (iOS) 
-		- 기간 : 2022.01.24 ~ 2022.06.19 
-		- 내용 : (주)서양네트웍스와 콜라보로 알로봇과 함께하는 코딩 앱 개발
-		- 주요업무 : 
-			1. (주)서양네트웍스 측 메인 컬러 및 알로봇 로고 등 브랜드 아이덴티티를 앱 내 UI/UX에 반영
-			2. 알로봇과 콜라보하는 제품과 연동할 수 있도록 BLE 통신 로직(연결/데이터 송수신) 개발 및 안정화
-
-	4. PingPong Scratch (Android) 
-		- 기간 : 2021.11.22 ~ 2024.08.01 
-		- 내용 : Scratch를 모바일에서도 사용할 수 있도록 해당 앱 개발
-		- 주요업무 : 
-			1. Window에서 사용하던 Scratch를 앱으로 이식
-		- 성과 : 
-			1. 메인 앱을 넘어선 누적 10만 다운로드를 기록
-
-	5. PingPong Voice Coding (Android) 
-		- 기간 : 2021.04.15 ~ 2024.08.01 
-		- 내용 : STT를 이용하여 음성인식으로 자사 하드웨어를 컨트롤하는 앱 유지보수
-		- 주요업무 :
-			1. 앱 STT 개선 및 UI/UX 개선
-		- 성과 :
-			1. 해당 앱의 인식률이 약 40%에서 약 85%까지 향상시킴 (아이들 대상)
-			2. 직관적이지 않던 UI/UX 개선
-
-	6. PingPong Robot (Android) 
-		- 기간 : 2021.04.15 ~ 2024.08.01
-		- 내용 : 펌웨어 업데이트, 하드웨어 컨트롤 등 여러 기능이 있는 메인 앱 유지보수
-
-	7. PingPong Robot (iOS) 
-		- 기간 : 2021.04.15 ~ 2024.08.01 
-		- 내용 : 펌웨어 업데이트, 하드웨어 컨트롤 등 여러 기능이 있는 메인 앱 유지보수
-
-	8. PingPong Scratch (Window) 
-		- 기간 : 2021.04.15 ~ 2024.08.01 
-		- 내용 : Scratch와 Scratch Link를 활용한 앱 유지보수 및 추가 개발
-		- 성과 : 
-			1. 메모리 누수로 인한 앱 강제종료 현상 해결
-			2. TenserFlow를 이용한 이미지 학습 추가
-			3. TeachableMachine을 이용한 이미지, 오디오, 포즈 기능 추가
-			4. Google Spread Sheet를 활용한 그래프 연동 개발
-
-	9.  Entry (핑퐁로봇) 
-		- 기간 : 2021.04.15 ~ 2024.08.01 
-		- 내용 : 네이버 커넥트재단에서 서비스하는 Entry에서 사용가능한 자사 확장 모듈 유지보수
-		- 주요업무 : 
-			1. Entry에서 사용하는 자사 확장 모듈 유지보수
-
-	10. PingPong Python 라이브러리 
-		- 기간 : 2021.04.15 ~ 2023.12.08 
-		- 내용 : 자사 하드웨어를 이용할 수 있는 Python 라이브러리 배포 및 유지보수
-		- 주요업무 : 
-			1. Python 라이브러리 배포 및 해당 라이브러리 유지보수
-
-	11. PingPong Block Coding (Android) 
-		- 기간 : 2021.01.25 ~ 2024.08.01 
-		- 내용 : 자사 하드웨어를 이용할 수 있도록 앱을 개발
-		- 주요업무 : 
-			1. 블루투스 통신을 활용한 앱 개발
-
-	12. PingPong Play (Android) 
-		- 기간 : 2020.11.16 ~ 2024.08.01 
-		- 내용 : 자사 하드웨어를 이용하여 게임을 할 수 있도록 앱을 개발
-		- 주요업무 : 
-			1. 게임 탐색 및 검토
-			2. 게임 내에서 조이스틱을 자사 하드웨어로 대체 하도록 개발
-		- 성과 : 
-			1. 1인용 레이싱 게임과 2인용 슈팅게임을 자사 하드웨어와 연동하여 게임 플레이가 가능하도록 개발
-
-	13. PingPong Maker Coding (Android) 
-		- 기간 : 2020.10.05 ~ 2024.08.01
-		- 내용 : 자사 하드웨어를 세밀하게 컨트롤 가능한 앱 개발 및 유지보수
-		- 주요업무 : 
-			1. 블루투스 통신을 활용한 앱 개발
-
+## 14. PingPong Maker Coding (Android) 
+ - STT를 활용한 

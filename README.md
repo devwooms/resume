@@ -28,3 +28,7 @@
   - BLE(Bluetooth Low Energy), HTTP/HTTPS(REST API), WebSocket
 - 인프라/배포
   - AWS (EC2)
+
+> ---
+> ### - [로보라이즌 상세 경력 보기](./experience/roborisen/roborisen.md)
+> ---
