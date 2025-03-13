@@ -112,7 +112,7 @@
    - 자사 하드웨어 연동을 위한 기술 검토 (API 연동, BLE 프로토콜, 버전 호환 여부 등등)
    - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
    - 자사 하드웨어 모델 동작 확장 모듈 추가 
-		> ![팀모노리스 Codle Codle](../../assets/experience/roborisen/팀모노리스-Codle/codle.png)
+		> ![팀모노리스 Codle](../../assets/experience/roborisen/팀모노리스-Codle/codle.png)
  - 성과 :
    - 고객들의 플랫폼 선택지 확대 및 수업력 향상
 
