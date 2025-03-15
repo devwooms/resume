@@ -120,7 +120,7 @@
  - 설명 :
    - 어린 아이들을 위한 STT를 활용한 자사 하드웨어 동작 앱 유지보수
  - 업무 :
-   - 아이들의 사용 환경 및 음성 데이터 확보 후 STT 인식률 개선 (45% -> 85% / 10명 테스트 100번 기준 총 1000번)
+   - 아이들의 사용 환경 및 음성 데이터 확보 후 STT 인식률 개선 (45% -> 85% / 10명 100번 기준 총 1000번)
 		> ![PingPong Voice Coding (Android) Voice 1](../../assets/experience/roborisen/PingPong-Voice-Coding_Android/voice1.gif)
    - UI/UX 변경 및 유지 보수
 		> ![PingPong Voice Coding (Android) Voice 2](../../assets/experience/roborisen/PingPong-Voice-Coding_Android/voice2.gif)
