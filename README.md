@@ -211,7 +211,7 @@
  - 설명 :
    - 서양네트웍스 알로봇과의 콜라보로 만든 코딩로보 앱
  - 업무 :
-   - 앱 설계 및 유지보수
+   - 앱 개발 및 유지보수
       > ![서양네트웍스 코딩로비](assets/experience/roborisen/서양네트웍스-코딩로비_iOS&Android/codingroby.gif)
 
 ## 12. Python 라이브러리
