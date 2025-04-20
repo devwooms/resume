@@ -51,8 +51,10 @@
     - Python, C
   - 프레임워크/라이브러리
     - BlueZ
+    - dbus-python, GLib, PyGObject
   - 통신/프로토콜
     - Bluetooth
+    - HID Report Descriptor
   - 컴파일러
     - gcc
 
