@@ -1,5 +1,5 @@
 ## 경력사항
-### [(주)로보라이즌 - Lead Developer *(2020.07 ~ 2024.09)*]
+### (주)로보라이즌 - Lead Developer *(2020.07 ~ 2024.09)*
 
 주요 업무 성과 :
   - 하드웨어 연동 Android, iOS, Window 앱 개발 및 유지보수 전반 담당
@@ -97,20 +97,20 @@
    - 학생들의 흥미 향상을 위한 카메라 주행 및 게임 앱
  - 업무 성과 : 
     - Three.js, Javascript, WebGL을 이용한 HexGL게임 내의 컨트롤을 하드웨어의 자이로, 가속도 센서를 이용해서 조작 가능하도록 WebView Bridge를 사용한 WebView와 통신 구현 및 BLE 연동 로직, 데이터 처리
-      > ![Play Andorid Game1](assets/experience/roborisen/Pingpong-Play_Android/game1.gif)
+      > ![Play Andorid Game1](../../assets/experience/roborisen/Pingpong-Play_Android/game1.gif)
     - Phaser 3, Typescript를 이용한 게임 내의 컨트롤을 하드웨어의 자이로, 가속도 센서, 버튼을 이용해서 조작 가능하도록 WebView Bridge를 사용한 WebView와 통신 구현 및 BLE 연동 로직, 데이터 처리
-      > ![Play Andorid Game2](assets/experience/roborisen/Pingpong-Play_Android/game2.gif)
+      > ![Play Andorid Game2](../../assets/experience/roborisen/Pingpong-Play_Android/game2.gif)
     - RTSP기반 IP 카메라를 활용하여 제공받은 SDK로 Custom SurfaceView 구현
-      > ![Play Andorid Camera](assets/experience/roborisen/Pingpong-Play_Android/camera.gif)
+      > ![Play Andorid Camera](../../assets/experience/roborisen/Pingpong-Play_Android/camera.gif)
 
 ## 2. PingPong Scratch (Android)
  - 설명 :
     - 데스크탑이나 노트북에서만 사용하던 Scratch를 모바일과 태블릿에서 사용할 수 있도록 Android로 Porting
  - 업무 성과 :
     - 앱 개발 및 배포 다운로드 수 10만이상 달성
-      > ![Scratch Android Download](assets/experience/roborisen/Pingpong-Scratch_Android/download.png)
+      > ![Scratch Android Download](../../assets/experience/roborisen/Pingpong-Scratch_Android/download.png)
     - Scratch를 Android 환경에서 지원이 가능하도록 WebView, WebSocket, BLE 등을 활용한 Porting
-      > ![Scratch Android Working](assets/experience/roborisen/Pingpong-Scratch_Android/working.gif)
+      > ![Scratch Android Working](../../assets/experience/roborisen/Pingpong-Scratch_Android/working.gif)
     - Scratch Window 업데이트 시 최신화
     - BLE 라이브러리 문제로 인한 연결 해제 이슈 -> Nordic BLE 라이브러리로 교체
     - Chrome Book 구글 플레이스토어 접속시 해당 앱 검색불가 이슈 -> Camera나 기타 하드웨어가 없더라도 검색 가능하도록 Manifast 수정
@@ -123,11 +123,11 @@
    - WebPack, Node.js, Electron 기반 Scratch 오픈 소스를 이용한 Custom 개발 및 유지보수
  - 업무 성과 :
    - 하드웨어 연결 및 하드웨어 동작 컨트롤 확장 기능 개발
-      > ![Scratch Window Extension](assets/experience/roborisen/Pingpong-Scratch_Window/scratch_extension.png)
+      > ![Scratch Window Extension](../../assets/experience/roborisen/Pingpong-Scratch_Window/scratch_extension.png)
    - Tensorflow를 기반으로 한 Google Teachable Machine을 이용하여 Scratch 확장 기능 개발
-      > ![Scratch Window Teachable Machine Pose](assets/experience/roborisen/Pingpong-Scratch_Window/teachablemachine_pose.gif)
+      > ![Scratch Window Teachable Machine Pose](../../assets/experience/roborisen/Pingpong-Scratch_Window/teachablemachine_pose.gif)
    - Google Spread Sheets, REST API를 활용한 그래프 기능 개발
-      > ![Scratch Window Google Spread Sheets](assets/experience/roborisen/Pingpong-Scratch_Window/google-spread-sheet.gif)
+      > ![Scratch Window Google Spread Sheets](../../assets/experience/roborisen/Pingpong-Scratch_Window/google-spread-sheet.gif)
    - Google Spread Sheets
    - 하드웨어 동작 오류 -> 펌웨어 버전에 따른 프로토콜 수정
    - Google Spread Sheets 추가 요청 개발 ( Sheet 선택, 행 열 지정 등등 )
@@ -144,14 +144,14 @@
    - 타사 플랫폼 내 하드웨어 확장 모듈 추가 개발 및 UI 구성 검토
    - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
    - 고객들의 피드백을 통한 해당 UI/UX 및 기능 개선, 추가
-      > ![KT Codiny AI Codiny](assets/experience/roborisen/KT-Codiny/Ai-Codiny.png)
+      > ![KT Codiny AI Codiny](../../assets/experience/roborisen/KT-Codiny/Ai-Codiny.png)
 
 ## 5. 네이버 커넥트재단 Entry
  - 설명 :
    - 네이버 커넥트재단에서 서비스 중인 Entry에 하드웨어를 연동하기 위한 확장 모듈 유지보수
  - 업무 성과 :
    - Entry 하드웨어, Entry 오프라인 연결 해제 후 인식 문제 이슈 -> 연결 끊어짐시 초기화 후 재시작으로 수정
-      > ![네이버 커넥트재단 Entry](assets/experience/roborisen/네이버-커넥트재단-Entry/entry.png)
+      > ![네이버 커넥트재단 Entry](../../assets/experience/roborisen/네이버-커넥트재단-Entry/entry.png)
 
 ## 6. 팀모노리스 Codle
  - 설명 : 
@@ -160,16 +160,16 @@
    - 하드웨어 연동을 위한 기술 검토 (API 연동, BLE 프로토콜, 버전 호환 여부 등등)
    - BLE를 통한 하드웨어 연동 로직 구현 및 정상 동작 확인(데이터 송수신, 연결 안정성)
    - 하드웨어 모델 동작 확장 모듈 추가 
-      > ![팀모노리스 Codle](assets/experience/roborisen/팀모노리스-Codle_Window/codle.png)
+      > ![팀모노리스 Codle](../../assets/experience/roborisen/팀모노리스-Codle_Window/codle.png)
 
 ## 7. PingPong Voice Coding (Android)
  - 설명 :
    - 어린 아이들을 위한 STT를 활용한 하드웨어 동작 앱 유지보수
  - 업무 성과 :
    - 아이들의 사용 환경 및 음성 데이터 확보 후 STT 인식률 개선 (45% -> 85% / 10명 * 100번 기준 총 1000번)
-      > ![PingPong Voice Coding (Android) Voice 1](assets/experience/roborisen/PingPong-Voice-Coding_Android/voice1.gif)
+      > ![PingPong Voice Coding (Android) Voice 1](../../assets/experience/roborisen/PingPong-Voice-Coding_Android/voice1.gif)
    - UI/UX 변경
-      > ![PingPong Voice Coding (Android) Voice 2](assets/experience/roborisen/PingPong-Voice-Coding_Android/voice2.gif)
+      > ![PingPong Voice Coding (Android) Voice 2](../../assets/experience/roborisen/PingPong-Voice-Coding_Android/voice2.gif)
    - 삭제 기능 추가 및 음성 인식 방법 변경
 
 ## 8. PingPong Block Coding (Android) 
@@ -177,7 +177,7 @@
    - 메인 앱에 없는 작곡과 반복문을 추가하고 디자인을 새롭게 만든 앱
  - 업무 성과 :
    - 앱 개발
-      > ![PingPong Block Coding (Android)](assets/experience/roborisen/PingPong-Block-Coding_Android/block.gif)
+      > ![PingPong Block Coding (Android)](../../assets/experience/roborisen/PingPong-Block-Coding_Android/block.gif)
 
 ## 9. PingPong Robot (Android, iOS)  
  - 설명 :
@@ -206,15 +206,11 @@
    - 서양네트웍스 알로봇과의 콜라보로 만든 코딩로보 앱
  - 업무 성과 :
    - 앱 개발
-      > ![서양네트웍스 코딩로비](assets/experience/roborisen/서양네트웍스-코딩로비_iOS&Android/codingroby.gif)
+      > ![서양네트웍스 코딩로비](../../assets/experience/roborisen/서양네트웍스-코딩로비_iOS&Android/codingroby.gif)
 
 ## 12. Python 라이브러리
  - 설명 :
    - Jupyter Notebook을 이용해서 Python 수업을 지원하는 Python 라이브러리 유지보수
  - 업무 성과 :
    - 센서 오류 수정 및 센서 별 데이터 라이브러리 수정
-
-
-## 프로젝트
-### Bluetooth Hub - 2025.04 ~
 

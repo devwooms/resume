@@ -1,10 +1,10 @@
-# Overview
-  - [**경력사항**](#경력사항)
-  - [**프로젝트**](#프로젝트)
+# 📂 문서 바로가기
+  - [**경력 상세 보기**](/experience/roborisen/roborisen.md)
+  - [**프로젝트 상세 보기**]([/project/bluetooth_hub.md](https://github.com/devwooms/Raspberry-Pi_BLE-HUB))
 
 
-## 경력사항
-### [ (주)로보라이즌 - Lead Developer *(2020.07 ~ 2024.09)* ]
+## 경력 요약
+### [ (주)로보라이즌 - Lead Developer *(2020.07 ~ 2024.09)* 📄](/experience/roborisen/roborisen.md)
 
 주요 업무 성과 :
   - 하드웨어 연동 Android, iOS, Window 앱 개발 및 유지보수 전반 담당
@@ -15,8 +15,10 @@
 
 주요 성과 :
   - Nordic 회사 블루투스 모듈을 사용한 하드웨어와의 데이터 통신
-  - [1인용 레이싱 게임과 2인용 슈팅게임을 하드웨어와 연동하여 게임 플레이가 가능하도록 개발](#1-pingpong-play-android)
-  - [윈도우 앱을 모바일 앱으로 이식 후 개발/배포 후 누적 10만 다운로드를 기록](#2-pingpong-scratch-android)
+  - [1인용 레이싱 게임과 2인용 슈팅게임을 하드웨어와 연동하여 게임 플레이가 가능하도록 개발](/experience/roborisen/roborisen.md#1-pingpong-play-android)
+  
+       > ![Play Andorid Game1](assets/experience/roborisen/Pingpong-Play_Android/game1.gif)
+  - [윈도우 앱을 모바일 앱으로 이식 후 개발/배포 후 누적 10만 다운로드를 기록](/experience/roborisen/roborisen.md#2-pingpong-scratch-android)
   - STT(Speech-to-Text) 정확도 개선 ((45% -> 85% / 10명 * 100번 기준 총 1000번))
 
 ### 기술 스택
@@ -34,10 +36,9 @@
     - AWS (EC2)
 
 
-## 프로젝트
-### [ Bluetooth Hub - 2025.04 ~ ]
 
-설명 : 
+## 프로젝트 요약
+### [ Bluetooth Hub - *(2025.04 ~ 진행중)* 📄](https://github.com/devwooms/Raspberry-Pi_BLE-HUB)
 
   - 하나의 컨트롤러 기기로 여러 블루투스 기기를 손쉽게 전환할 수 있는 시스템
   - Raspberry Pi 기반으로 블루투스 제어 시스템 구성
@@ -48,4 +49,10 @@
 ### 기술 스택
   - 언어
     - Python, C
-  - 
+  - 프레임워크/라이브러리
+    - BlueZ
+  - 통신/프로토콜
+    - Bluetooth
+  - 컴파일러
+    - gcc
+
